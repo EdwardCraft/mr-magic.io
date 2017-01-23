@@ -6,6 +6,7 @@
 
 body {
     padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    font-family: 'Raleway', sans-serif;
 }
 
 .portfolio-item {
@@ -14,4 +15,43 @@ body {
 
 footer {
     margin: 50px 0;
+}
+
+   		
+/* Default hide the video on all devices */
+#video{display:none}
+ 
+/* Default display the image to replace the video on all devices */
+#videosubstitute{display:block;width:100%;height:416px;max-width:100%}
+ 
+
+
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+#video{display:block}
+#videosubstitute{display:none}
+}
+
+
+
+#videoDiv {width: 100%; height: 416px; position: relative; }
+#transparentDiv{width: 100%; height: 416px; position: absolute; top: 0; left: 0; z-index: 1; background-color: rgb(118, 9, 67); opacity: 0.7;filter: Alpha(opacity=50);}
+#videoBlock{width: 100%; height: 416px; position: relative; top: 0; left: 0;}
+#videoMessage {width: 100%; height: auto; position: absolute; top: 0; left: 0; z-index: 1;}
+#videoMessage *{padding:0.5em; margin:0}
+#videoMessage h1{font-size: 8em;color:#ffffff;text-align:center;}
+#videoMessage h2{font-size: 2.5em;color:#ffffff;text-align:center;}
+#videoMessage h3{font-size: 2.0em;color:#ffffff;text-align:center;}
+.videoClick {text-align:center}
+.videoClick a{color:white;background-color:rgba(241, 241, 241, 0.25);font-size: 1.7em;cursor:pointer;cursor:hand}
+
+video {
+    width: 100%;
+    height: 416px;
+    object-fit: fill;
+    -webkit-box-shadow: 14px 12px 22px 0px rgba(94,88,94,1);
+-moz-box-shadow: 14px 12px 22px 0px rgba(94,88,94,1);
+box-shadow: 14px 12px 22px 0px rgba(94,88,94,1);
 }

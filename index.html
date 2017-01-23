@@ -11,11 +11,19 @@
 
     <title>Portfolio Item - Start Bootstrap Template</title>
 
+
+    <!-- font awsome-->
+    <script src="https://use.fontawesome.com/578073520f.js"></script>
+
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/portfolio-item.css" rel="stylesheet">
+
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -23,7 +31,7 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
+    
 </head>
 
 <body>
@@ -33,28 +41,10 @@
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">Start Bootstrap</a>
+                <a class="navbar-brand" href="#">Mr Magic</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="#">About</a>
-                    </li>
-                    <li>
-                        <a href="#">Services</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
+    
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container -->
@@ -77,7 +67,36 @@
         <div class="row">
 
             <div class="col-md-8">
+                <!--  
                 <img class="img-responsive" src="http://placehold.it/750x500" alt="">
+                -->
+                <div id="videoDiv">
+
+                    <div id="transparentDiv" >
+                         
+                    </div>
+
+                    <div id="videoMessage" >
+                            <h1></h1>
+                            <h2>
+                                PLAY THE GAME
+                                <p><i class="fa fa-gamepad fa-2x" aria-hidden="true"></i></p>
+                            </h2>
+                           
+                    </div>
+
+                    
+                     
+                    <div id="videoBlock" >
+                            <video   preload="preload" id="video" autoplay="autoplay" loop="loop">
+                            <source src="video/trailer.mp4" type="video/mp4">
+                            </video>
+                            <div >
+                             <img class="img-responsive" src="img/shrine.png" id="videosubstitute" alt="" >   
+                            </div>
+                    </div>
+                </div>
+
             </div>
 
             <div class="col-md-4">
@@ -96,50 +115,23 @@
         <!-- /.row -->
 
         <!-- Related Projects Row -->
-        <div class="row">
-
-            <div class="col-lg-12">
-                <h3 class="page-header">Related Projects</h3>
-            </div>
-
-            <div class="col-sm-3 col-xs-6">
-                <a href="#">
-                    <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
-                </a>
-            </div>
-
-            <div class="col-sm-3 col-xs-6">
-                <a href="#">
-                    <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
-                </a>
-            </div>
-
-            <div class="col-sm-3 col-xs-6">
-                <a href="#">
-                    <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
-                </a>
-            </div>
-
-            <div class="col-sm-3 col-xs-6">
-                <a href="#">
-                    <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
-                </a>
-            </div>
-
-        </div>
+        
         <!-- /.row -->
 
-        <hr>
-
+        <hr>    
+            
         <!-- Footer -->
-        <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
-                </div>
-            </div>
+        <div class="col-md-12">
+            <footer>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p>Copyright &copy; Your Website 2014</p>
+                    </div>
+                 </div>
             <!-- /.row -->
-        </footer>
+             </footer>
+        </div>
+        
 
     </div>
     <!-- /.container -->
@@ -151,5 +143,9 @@
     <script src="js/bootstrap.min.js"></script>
 
 </body>
+
+
+
+
 
 </html>
