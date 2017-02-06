@@ -1,0 +1,355 @@
+
+
+
+
+html{
+	height: 100%;
+}
+
+body{
+	margin: 0;
+  padding: 0;
+}
+
+.imgResponsive {
+    width: 100%;
+    height: auto;
+}
+
+
+@-ms-viewport{
+  width: device-width;
+}
+
+@media only screen and (max-width: 667px) {
+	.hideonmobile { 
+    display: none; 
+  }
+ 
+}
+
+@media only screen and (max-width: 967px) {
+  .logoSerie{
+    /*display: none;*/
+    transform: translate(0, -40%);
+  }
+}
+
+
+
+
+
+header{
+	background-color: rgb(40, 40, 40); 
+}
+
+
+.color1{
+   background-color: #212121;
+}
+
+.textColor1{
+  color: white;
+}
+
+#footer{
+	position: fixed;
+  bottom: 0;
+  width: 100%;
+ 
+
+}
+
+
+#p-bottom{
+	color: white;
+}
+
+.title{
+	margin: 0;
+}
+
+.wrapper {
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto; 
+    overflow: hidden;
+}
+
+.bg {
+    position: absolute;
+    min-height: 100% !important;
+    width: 100%;
+    z-index: -1;
+}
+
+.ibg-bg {
+   position: absolute;
+   z-index: -1;
+}
+
+
+
+#logo{
+
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -150px;
+  margin-left: -125px; 
+  max-width: 300px;
+
+  width: 35%;
+  height: 250px;
+
+}
+
+#container{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/*===========================================
+  loader 
+============================================  
+*/
+
+#loader-wrapper{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+
+}
+
+
+
+
+
+
+#imgLoader{
+  display: block;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  width: 180px;
+  height: 180px;
+  margin: -90px 0 0 -90px;
+  border-radius: 50%; 
+  background: #72DAFF;
+  z-index: 1009;
+
+}
+
+
+
+
+#loader-wrapper .loader-section{
+  position: fixed;
+  top: 0;
+  width: 51%;
+  height: 100%;
+
+  background: #FFEE58;
+  z-index: 1000;
+}
+
+
+#loader-wrapper .loader-section.section-left{
+  left: 0;
+
+}
+
+#loader-wrapper .loader-section.section-right{
+  right: 0;
+}
+
+
+/*  laoded styles */
+  .loaded #loader-wrapper .loader-section.section-left{
+    -webkit-transform: translateX(-100%);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: translateX(-100%);  /* IE 9 */
+            transform: translateX(-100%);  /* Firefox 16+, IE 10+, Opera */
+    -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+            transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  }
+  
+  .loaded #loader-wrapper .loader-section.section-right{
+    -webkit-transform: translateX(100%);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: translateX(100%);  /* IE 9 */
+            transform: translateX(100%);  /* Firefox 16+, IE 10+, Opera */
+    -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+            transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  }
+
+  .loaded #imgLoader{
+    opacity: 0;
+    visibility: hidden;
+      -webkit-transition: all 0.3s ease-out;  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+              transition: all 0.3s ease-out; 
+  }
+
+  .loaded #loader-wrapper{
+    visibility: hidden;
+      -webkit-transform: translateY(-100%);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: translateY(-100%);  /* IE 9 */
+            transform: translateY(-100%);  /* Firefox 16+, IE 10+, Opera */
+
+      -webkit-transition: all 0.3s 1s ease-out;  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+            transition: all 0.3s 1s ease-out; 
+  }
+
+
+.loaderOerlayRight{
+  display: block;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  width: 200px;
+  height: 200px;
+  margin: -100px 0 0 -100px;
+
+  z-index: 1003;
+
+}
+
+.loaded #loader-wrapper .loaderOerlayRight{
+  left: 100%;
+    -webkit-transform: translateX(100%);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: translateX(100%);  /* IE 9 */
+            transform: translateX(100%);  /* Firefox 16+, IE 10+, Opera */
+    -webkit-transition: all 0.8s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+            transition: all 0.8s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+}
+
+.loaderOerlayLeft{
+  display: block;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  width: 200px;
+  height: 200px;
+  margin: -100px 0 0 -100px;
+
+  z-index: 1002;
+}
+
+.loaded #loader-wrapper .loaderOerlayLeft{
+    left: 0%;
+    -webkit-transform: translateX(-100%);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: translateX(-100%);  /* IE 9 */
+            transform: translateX(-100%);  /* Firefox 16+, IE 10+, Opera */
+    -webkit-transition: all 0.8s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+            transition: all 0.8s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+}
+
+
+
+.gameIcon .hoverEffect{
+  display: block;
+  position: fixed;
+  left: 50%;
+  top: 75%;
+
+  /*border: 3px solid blue;*/
+  z-index: 1001;
+
+}
+
+.hoverEffect{
+  width: 200px;
+  height: 200px;
+  margin: -100px 0 0 -100px;
+}
+
+.hoverEffect:hover{
+  width: 230px;
+  height: 230px;
+  margin: -115px 0 0 -115px;
+}
+
+.videoIcon .hoverEffect{
+  display: block;
+  position: fixed;
+  left: 30%;
+  top: 50%;
+
+ /* border: 3px solid white;*/
+  z-index: 1001;
+
+}
+
+.bibleIcon .hoverEffect{
+  display: block;
+  position: fixed;
+  left: 70%;
+  top: 50%;
+
+  /*border: 3px solid yellow;*/
+  z-index: 1001;
+
+}
+
+
+
+
+.logoSerie{
+  
+  position: fixed;
+  left: 50%;
+  top: 40%;
+  width: 300px;
+  height: 300px;
+  margin: -150px 0 0 -150px;
+  /*border: 3px solid purple;*/
+  z-index: 1001;
+
+}
+
+
+
+#trailer .modal-dialog { 
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 58%;
+    height: auto;
+
+ }
+
+.hanging-close {
+     position: absolute;
+     top: -12px;
+     right: -12px;
+     z-index: 9001;
+ }
+
+
+
+.movie-tile {
+    margin-bottom: 0px;
+    padding-top: 0px;
+}
+
+
+.movie-tile:hover {
+    background-color: #EEE;
+    cursor: pointer;
+}
+.scale-media {
+    padding-bottom: 56.25%;
+    position: relative;
+}
+
+.scale-media iframe {
+    border: none;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: white;
+}

@@ -1,190 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+ 	<meta charset="utf-8">
+ 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+ 	 <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Mr Magic - Game</title>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+	<!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <title>Portfolio Item - Start Bootstrap Template</title>
-
+    <!-- mr magic css -->
+    <link href="css/mrmagic.css" rel="stylesheet">
 
     <!-- font awsome-->
     <script src="https://use.fontawesome.com/578073520f.js"></script>
+     <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  	<script src="js/jquery.interactive_bg.min.js"></script>
 
-    <script src="soundmanager2-setup.js"></script>
-    <script src="soundmanager2-jsmin.js"></script>
+  	<script>
+	  $(document).ready(function(){
+       $(".wrapper").interactive_bg({
+         		strength: 25,
+         		scale: 1.06,
+         		animationSpeed: "200ms",
+        		contain: true,
+         		wrapContent: false
+       		});
+		});
+		
+		$(window).resize(function() {
+		  $(".bg > .ibg-bg").css({
+		    width: $(window).outerWidth(),
+		    height: $(window).outerHeight()
+		  })
+		})
+		
+	</script>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
-    <link href="css/portfolio-item.css" rel="stylesheet">
-
-    
-
-    <!-- google font -->
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-
-    
-    
-    
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    
 </head>
+<body >
 
-<body>
+	<div id="loader-wrapper">
+		<div id="imgLoader">
+  			<img class="loaderOerlayRight" src="https://i.imgsafe.org/573ca9dfd0.gif">
+		</div>
+		<div class ="loaderOerlayRight">
+			<img class="imgResponsive" src="img/seal.png">
+		</div>
+		<div class ="loaderOerlayLeft">
+			<img class="imgResponsive"  src="img/seal-left.png">
+		</div>
+		<div class="loader-section section-left"></div>
+		<div class="loader-section section-right"></div>
+	</div>
+	
+	<div class="wrapper bg" data-ibg-bg="img/anime-landscape-wallpaper-HD1.jpg">
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <a class="navbar-brand" href="#">Mr Magic</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-    
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
+			
+			<nav class="navbar color1 hideonmobile">
+  				<a class="navbar-brand" href="#">
+  					<div class="textColor1">
+  						<img src="http://placehold.it/30x30" width="30" height="30" class="d-inline-block align-top" alt="">
+  						Mr Magic
+  					</div>
+  				</a>
+			</nav>
+				
 
-    <!-- Page Content -->
-    <div class="container">
+				
+			<div class="logoSerie">
+				<img width="300px" height="300px" src="img/logo.png">
+			</div>	
+				
+			<div class="gameIcon web-game" data-toggle="modal" data-target="#trailer">
+				<img class="hoverEffect" src="img/game-botton.png">
+			</div>
 
-        <!-- Portfolio Item Heading -->
-        <div class="row">
-            <div class="col-lg-12">
-                <h1 class="page-header">Portfolio Item
-                    <small>Item Subheading</small>
-                </h1>
-            </div>
-        </div>
-        <!-- /.row -->
+			<div class="videoIcon movie-tile" data-trailer-youtube-id="65EtaVtzlhY" data-toggle="modal" data-target="#trailer">
+				<img class="hoverEffect" src="img/video-botton.png">
+			</div>
 
-        <!-- Portfolio Item Row -->
-        <div class="row">
-
-            <div class="col-md-8">
-                <!--  
-                <img class="img-responsive" src="http://placehold.it/750x500" alt="">
-                -->
-                <div id="videoDiv">
-                    <!--  
-                    <div id="transparentDiv" >
-                         
-                    </div>
-
-                    <div id="videoMessage" >
-                        <h1></h1>
-                            <h2>
-                                PLAY THE GAME
-                                <p>
-                                    <i class="fa fa-gamepad fa-2x" aria-hidden="true"></i>
-                                </p>
-                                <button data-toggle="modal"  data-target="#trailer" type="button" class="btn btn-info">-PLAY-</button>
-                        </h2>
-                    </div>
-                    -->
-                   
-                        
-                        <!--  
-                        <div >
-                            <img class="img-responsive" src="img/shrine.png" id="videosubstitute" alt="" >   
-                        </div>
-                            -->
-                        <div id="trailer">
-                            
-                                 <div class="modal-content">
-                                    <div class="scale-media" >
-                                        <iframe src="https://mrmagic.herokuapp.com/" scrolling="no"></iframe>
-                                    </div>
-                                </div>
-                             
-                        </div>
-
-                    
-                </div>
-
-            </div>
-
-            <div class="col-md-4">
-                <h3>Project Description</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
-                <h3>Project Details</h3>
-                <ul>
-                    <li>Lorem Ipsum</li>
-                    <li>Dolor Sit Amet</li>
-                    <li>Consectetur</li>
-                    <li>Adipiscing Elit</li>
-                </ul>
-            </div>
-
-        </div>
-        <!-- /.row -->
-
-        <!-- Related Projects Row -->
-        <!--
-        <div class="row">
-             <div class="col-lg-12 ">
-                          
-                 <div  id="trailer">
-                     <div class="modal-dialog">
-                         <div class="modal-content">
-                            <div class="scale-media" >
-                                <iframe src="https://mrmagic.herokuapp.com/" scrolling="no"></iframe>
-                            </div>
-                         </div>
-                    </div>
-                </div>
-             </div>       
-        </div>
-        
+			<div class="bibleIcon">
+				<img class="hoverEffect" src="img/bible-botton.png">
+			</div>
 
 
+			                       <!-- Trailer Video Modal -->
+  
+			<div id="footer" class="container color1">
+				<div class="row">
+					<div class="col-md-6">
+						<p id="p-bottom" >some text 1</p>
+					</div>
+					<div class="col-md-6">
+						<div class="row">
+							<div class="col-xs-8 col-sm-6">
+								<p id="p-bottom" >some text2</p>
+							</div>
+							<div class="col-xs-8 col-sm-6 ">
+								<p id="p-bottom">some text2</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 
-        <!-- /.row -->
 
-        <hr>    
-            
-        <!-- Footer -->
-        <div class="col-md-12">
-            <footer>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <p>Copyright &copy; Your Website 2014</p>
-                    </div>
-                 </div>
-            <!-- /.row -->
-             </footer>
-        </div>
-        
+	</div>
+	
+	<div class="modal" id="trailer">
+         <div class="modal-dialog">
+              <div class="modal-content">
+                     <a href="#" class="hanging-close" data-dismiss="modal" aria-hidden="true">
+                      	<img src="https://lh5.ggpht.com/v4-628SilF0HtHuHdu5EzxD7WRqOrrTIDi_MhEG6_qkNtUK5Wg7KPkofp_VJoF7RS2LhxwEFCO1ICHZlc-o_=s0#w=24&h=24"/>
+                     </a>
+                   <div class="scale-media" id="trailer-video-container"></div>
+               </div>
+         </div>
+     </div>
+	
 
-    </div>
-    <!-- /.container -->
+   
+         
+	
+	
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/animation.js"></script>
+    <script src="js/showAssets.js"></script>
 
-    
-    
-
-    
 
 </body>
-
-
-
 </html>
-
