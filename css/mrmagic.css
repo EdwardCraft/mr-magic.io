@@ -352,4 +352,40 @@ header{
     left: 0;
     top: 0;
     background: white;
+    z-index: 5;
 }
+
+.iframe{
+  overflow: hidden;
+}
+
+.modal-backdrop.in {
+  opacity: 0.75;
+}
+
+
+.back-modal-img{
+  position: absolute;
+  width: 61%;
+  height: auto;
+  margin-top: 189px;
+  margin-left: 19.5%;
+  margin-right: auto;
+  
+
+}
+
+.img-modal{
+  width: 100%;
+  height: auto;
+}
+
+div.modal-content{
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+}
+
+
+
