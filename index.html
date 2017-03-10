@@ -10,7 +10,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- mr magic css -->
-    <link href="css/mrmagic.css" rel="stylesheet">
+    <link href="css/mrmagic.min.css" rel="stylesheet">
 
     <!-- font awsome-->
     <script src="https://use.fontawesome.com/578073520f.js"></script>
@@ -21,7 +21,7 @@
   	</script>
 
   	<script src="js/jquery.interactive_bg.min.js"></script>
-  	
+  	<script src="js/loading.js"></script>
 
   	<script>
 	  $(document).ready(function(){
@@ -45,12 +45,15 @@
 
 
 </head>
-<body >
+<body onload="loaded()">
 
 	<div id="loader-wrapper">
-		<div id="imgLoader">
-  			<img class="loaderOerlayRight" src="https://i.imgsafe.org/573ca9dfd0.gif">
+		<div id="containerLoader">
+    		<div class="sphere s-gold"></div>
+    		<div class="sphere s-1"></div>
 		</div>
+
+
 		<div class ="loaderOerlayRight">
 			<img class="imgResponsive" src="img/seal.png">
 		</div>
@@ -97,15 +100,15 @@
 			<div id="footer" class="container color1">
 				<div class="row">
 					<div class="col-md-6">
-						<p id="p-bottom" >some text 1</p>
+						<p id="p-bottom" ></p>
 					</div>
 					<div class="col-md-6">
 						<div class="row">
 							<div class="col-xs-8 col-sm-6">
-								<p id="p-bottom" >some text2</p>
+								<p id="p-bottom" ></p>
 							</div>
 							<div class="col-xs-8 col-sm-6 ">
-								<p id="p-bottom">some text2</p>
+								<p id="p-bottom"></p>
 							</div>
 						</div>
 					</div>
@@ -136,7 +139,7 @@
 	
 
      <script src="js/bootstrap.min.js"></script>
-     <script src="js/animation.js"></script>
      <script src="js/showAssets.js"></script>
+
 </body>
 </html>
