@@ -139,7 +139,7 @@ header{
   height: 180px;
   margin: -90px 0 0 -90px;
   border-radius: 50%; 
-  background: #2C2C2C;
+  background: pink;/*-----------------------------*/
   z-index: 1009;
 
 }
@@ -152,16 +152,18 @@ header{
   top: 0;
   width: 51%;
   height: 100%;
-
-  background: #FFEE58;
   z-index: 1000;
+  background: #FFEE58; /* walls color*/
 }
+
 
 
 #loader-wrapper .loader-section.section-left{
   left: 0;
 
 }
+
+
 
 #loader-wrapper .loader-section.section-right{
   right: 0;
@@ -403,12 +405,14 @@ div.modal-content{
     to {bottom:-65%;}
 }
 
+
 #containerLoader {
-    
-    -webkit-animation: rotate linear 3s infinite;
-    z-index: 9005;
+    /*-webkit-animation: rotate linear 3s infinite;
+    z-index: 9005;*/
    
 }
+
+
 
 .sphere {
     position: absolute;
@@ -445,3 +449,31 @@ div.modal-content{
     box-shadow: 0 0 50px #BAF4FF;
     -webkit-animation: none;
 }
+
+
+
+/*  code for animating sprite sheet    */
+
+.box {
+
+  width:110px;
+  height:149px; 
+  position:absolute; 
+  bottom:25px;
+  left: 20%; 
+  overflow:hidden;
+
+
+}
+
+.penguin {
+
+  animation:walk 1s infinite steps(4);
+}
+
+@keyframes walk{
+  0%{transform:translateX(0);}
+  100%{transform:translateX(-440px);}
+}
+
+/*    --------------------------    */
