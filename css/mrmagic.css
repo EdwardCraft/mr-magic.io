@@ -121,7 +121,7 @@ header{
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 1000;
+  z-index: 1010;
 
 }
 
@@ -139,8 +139,8 @@ header{
   height: 180px;
   margin: -90px 0 0 -90px;
   border-radius: 50%; 
-  background: pink;/*-----------------------------*/
-  z-index: 1009;
+  background: #da7a58;/*-----------------------------*/
+  z-index: 1010;
 
 }
 
@@ -150,24 +150,420 @@ header{
 #loader-wrapper .loader-section{
   position: fixed;
   top: 0;
-  width: 51%;
-  height: 100%;
-  z-index: 1000;
-  background: #FFEE58; /* walls color*/
+   width: 51%;
+   height: 100%;
+   z-index: 1000;
+ 
 }
 
 
 
 #loader-wrapper .loader-section.section-left{
-  left: 0;
-
+   left: 0;
+   background: #da7a58; /* walls color*/
+   
 }
 
 
 
 #loader-wrapper .loader-section.section-right{
   right: 0;
+  background: #da7a58; /* walls color*/
+  
 }
+
+
+#loader-wrapper .loader-section.section-leftTop{
+  left: 0;
+  top: 1.5%;
+  width: 49%;
+  height: 97.5%;
+  background: #da7a58;
+  z-index: 1001;
+}
+
+
+
+
+#loader-wrapper .loader-section.section-leftTopRecOne{
+  left: 0;
+  top: 1.5%;
+  width: 24%;
+  height: 8.5%;
+  background: #FFF3EB;
+  z-index: 1002;
+
+}
+
+#loader-wrapper .loader-section.section-leftTopRecTwo{
+  left: 25%;
+  top: 1.5%;
+  width: 24%;
+  height: 8.5%;
+  background: #FFF3EB;
+  z-index: 1003;
+}
+
+#loader-wrapper .loader-section.section-leftTopRecThree{
+  left: 0;
+  top: 11.5%;
+  width: 24%;
+  height: 8.5%;
+  background: #FFF3EB;
+  z-index: 1002;
+}
+
+#loader-wrapper .loader-section.section-leftTopRecFour{
+  left: 25%;
+  top: 11.5%;
+  width: 24%;
+  height: 8.5%;
+  background: #FFF3EB;
+  z-index: 1003;
+}
+
+#loader-wrapper .loader-section.section-leftTopRecFive{
+  left: 0;
+  top: 21.5%;
+  width: 24%;
+  height: 8.5%;
+  background: #FFF3EB;
+  z-index: 1002;
+}
+
+#loader-wrapper .loader-section.section-leftTopRecSix{
+  left: 25%;
+  top: 21.5%;
+  width: 24%;
+  height: 8.5%;
+  background: #FFF3EB;
+  z-index: 1003;
+}
+
+#loader-wrapper .loader-section.section-leftTopRecSeven{
+  left: 0;
+  top: 31.5%;
+  width: 24%;
+  height: 8.5%;
+  background: #FFF3EB;
+  z-index: 1002;
+}
+
+#loader-wrapper .loader-section.section-leftTopRecEight{
+  left: 25%;
+  top: 31.5%;
+  width: 24%;
+  height: 8.5%;
+  background: #FFF3EB;
+  z-index: 1003;
+}
+
+#loader-wrapper .loader-section.section-leftTopRecNine{
+  left: 0;
+  top: 41.5%;
+  width: 24%;
+  height: 8.5%;
+  background: #FFF3EB;
+  z-index: 1002;
+}
+
+#loader-wrapper .loader-section.section-leftTopRecTen{
+  left: 25%;
+  top: 41.5%;
+  width: 24%;
+  height: 8.5%;
+  background: #FFF3EB;
+  z-index: 1003;
+}
+
+#loader-wrapper .loader-section.section-leftTopRecEleven{
+  left: 0;
+  top: 51.5%;
+  width: 24%;
+  height: 8.5%;
+  background: #FFF3EB;
+  z-index: 1002;
+}
+
+#loader-wrapper .loader-section.section-leftTopRecTwelve{
+  left: 25%;
+  top: 51.5%;
+  width: 24%;
+  height: 8.5%;
+  background: #FFF3EB;
+  z-index: 1003;
+}
+
+#loader-wrapper .loader-section.section-leftTopRecThirteen{
+  left: 0;
+  top: 61.5%;
+  width: 24%;
+  height: 8.5%;
+  background: #FFF3EB;
+  z-index: 1002;
+}
+
+#loader-wrapper .loader-section.section-leftTopRecFourteen{
+  left: 25%;
+  top: 61.5%;
+  width: 24%;
+  height: 8.5%;
+  background: #FFF3EB;
+  z-index: 1003;
+}
+
+#loader-wrapper .loader-section.section-leftTopRecFifteen{
+  left: 0;
+  top: 71.5%;
+  width: 24%;
+  height: 8.5%;
+  background: #FFF3EB;
+  z-index: 1002;
+}
+
+#loader-wrapper .loader-section.section-leftTopRecSixteen{
+  left: 25%;
+  top: 71.5%;
+  width: 24%;
+  height: 8.5%;
+  background: #FFF3EB;
+  z-index: 1003;
+}
+
+#loader-wrapper .loader-section.section-leftTopRecSeventeen{
+  left: 0;
+  top: 81.5%;
+  width: 24%;
+  height: 8.5%;
+  background: #FFF3EB;
+  z-index: 1002;
+}
+
+#loader-wrapper .loader-section.section-leftTopRecEightteen{
+  left: 25%;
+  top: 81.5%;
+  width: 24%;
+  height: 8.5%;
+  background: #FFF3EB;
+  z-index: 1003;
+}
+
+#loader-wrapper .loader-section.section-leftTopRecNineteen{
+  left: 0;
+  top: 91.5%;
+  width: 24%;
+  height: 7.5%;
+  background: #FFF3EB;
+  z-index: 1002;
+}
+
+#loader-wrapper .loader-section.section-leftTopRecTwenty{
+  left: 25%;
+  top: 91.5%;
+  width: 24%;
+  height: 7.5%;
+  background: #FFF3EB;
+  z-index: 1003;
+}
+
+
+
+
+#loader-wrapper .loader-section.section-rightTop{
+  right: 0;
+  top: 1.5%;
+  width: 49%;
+  height: 97.5%;
+  background: #da7a58;
+  z-index: 1001;
+}
+
+
+#loader-wrapper .loader-section.section-rightTopRecOne{
+  right: 0;
+  top: 1.5%;
+  width: 24%;
+  height: 8.5%;
+  background: #FFF3EB;
+  z-index: 1002;
+
+}
+
+#loader-wrapper .loader-section.section-rightTopRecTwo{
+  right: 25%;
+  top: 1.5%;
+  width: 24%;
+  height: 8.5%;
+  background: #FFF3EB;
+  z-index: 1003;
+}
+
+
+#loader-wrapper .loader-section.section-rightTopRecThree{
+  right: 0;
+  top: 11.5%;
+  width: 24%;
+  height: 8.5%;
+  background: #FFF3EB;
+  z-index: 1002;
+}
+
+#loader-wrapper .loader-section.section-rightTopRecFour{
+  right: 25%;
+  top: 11.5%;
+  width: 24%;
+  height: 8.5%;
+  background: #FFF3EB;
+  z-index: 1003;
+}
+
+#loader-wrapper .loader-section.section-rightTopRecFive{
+  right: 0;
+  top: 21.5%;
+  width: 24%;
+  height: 8.5%;
+  background: #FFF3EB;
+  z-index: 1002;
+}
+
+#loader-wrapper .loader-section.section-rightTopRecSix{
+  right: 25%;
+  top: 21.5%;
+  width: 24%;
+  height: 8.5%;
+  background: #FFF3EB;
+  z-index: 1003;
+}
+
+#loader-wrapper .loader-section.section-rightTopRecSeven{
+  right: 0;
+  top: 31.5%;
+  width: 24%;
+  height: 8.5%;
+  background: #FFF3EB;
+  z-index: 1002;
+}
+
+#loader-wrapper .loader-section.section-rightTopRecEight{
+  right: 25%;
+  top: 31.5%;
+  width: 24%;
+  height: 8.5%;
+  background: #FFF3EB;
+  z-index: 1003;
+}
+
+#loader-wrapper .loader-section.section-rightTopRecNine{
+  right: 0;
+  top: 41.5%;
+  width: 24%;
+  height: 8.5%;
+  background: #FFF3EB;
+  z-index: 1002;
+}
+
+#loader-wrapper .loader-section.section-rightTopRecTen{
+  right: 25%;
+  top: 41.5%;
+  width: 24%;
+  height: 8.5%;
+  background: #FFF3EB;
+  z-index: 1003;
+}
+
+#loader-wrapper .loader-section.section-rightTopRecEleven{
+  right: 0;
+  top: 51.5%;
+  width: 24%;
+  height: 8.5%;
+  background: #FFF3EB;
+  z-index: 1002;
+}
+
+#loader-wrapper .loader-section.section-rightTopRecTwelve{
+  right: 25%;
+  top: 51.5%;
+  width: 24%;
+  height: 8.5%;
+  background: #FFF3EB;
+  z-index: 1003;
+}
+
+#loader-wrapper .loader-section.section-rightTopRecThirteen{
+  right: 0;
+  top: 61.5%;
+  width: 24%;
+  height: 8.5%;
+  background: #FFF3EB;
+  z-index: 1002;
+}
+
+#loader-wrapper .loader-section.section-rightTopRecFourteen{
+  right: 25%;
+  top: 61.5%;
+  width: 24%;
+  height: 8.5%;
+  background: #FFF3EB;
+  z-index: 1003;
+}
+
+#loader-wrapper .loader-section.section-rightTopRecFifteen{
+  right: 0;
+  top: 71.5%;
+  width: 24%;
+  height: 8.5%;
+  background: #FFF3EB;
+  z-index: 1002;
+}
+
+#loader-wrapper .loader-section.section-rightTopRecSixteen{
+  right: 25%;
+  top: 71.5%;
+  width: 24%;
+  height: 8.5%;
+  background: #FFF3EB;
+  z-index: 1003;
+}
+
+#loader-wrapper .loader-section.section-rightTopRecSeventeen{
+  right: 0;
+  top: 81.5%;
+  width: 24%;
+  height: 8.5%;
+  background: #FFF3EB;
+  z-index: 1002;
+}
+
+#loader-wrapper .loader-section.section-rightTopRecEightteen{
+  right: 25%;
+  top: 81.5%;
+  width: 24%;
+  height: 8.5%;
+  background: #FFF3EB;
+  z-index: 1003;
+}
+
+#loader-wrapper .loader-section.section-rightTopRecNineteen{
+  right: 0;
+  top: 91.5%;
+  width: 24%;
+  height: 7.5%;
+  background: #FFF3EB;
+  z-index: 1002;
+}
+
+#loader-wrapper .loader-section.section-rightTopRecTwenty{
+  right: 25%;
+  top: 91.5%;
+  width: 24%;
+  height: 7.5%;
+  background: #FFF3EB;
+  z-index: 1003;
+}
+
+
+
+
 
 
 /*  laoded styles */
@@ -178,6 +574,176 @@ header{
     -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
             transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
   }
+
+  .loaded #loader-wrapper .loader-section.section-leftTop{
+    -webkit-transform: translateX(-100%);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: translateX(-100%);  /* IE 9 */
+            transform: translateX(-100%);  /* Firefox 16+, IE 10+, Opera */
+    -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+            transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  }
+  
+
+  /*wall windows Left ----------------------------------------------------------------------------------------------------------------------*/
+  .loaded #loader-wrapper .loader-section.section-leftTopRecOne{
+    -webkit-transform: translateX(-100%);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: translateX(-100%);  /* IE 9 */
+            transform: translateX(-100%);  /* Firefox 16+, IE 10+, Opera */
+    -webkit-transition: all 0.5s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+            transition: all 0.5s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  }
+
+  .loaded #loader-wrapper .loader-section.section-leftTopRecTwo{
+    -webkit-transform: translateX(-210%);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: translateX(-210%);  /* IE 9 */
+            transform: translateX(-210%);  /* Firefox 16+, IE 10+, Opera */
+    -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+            transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  }
+
+  .loaded #loader-wrapper .loader-section.section-leftTopRecThree{
+    -webkit-transform: translateX(-100%);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: translateX(-100%);  /* IE 9 */
+            transform: translateX(-100%);  /* Firefox 16+, IE 10+, Opera */
+    -webkit-transition: all 0.5s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+            transition: all 0.5s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  }
+
+  .loaded #loader-wrapper .loader-section.section-leftTopRecFour{
+    -webkit-transform: translateX(-210%);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: translateX(-210%);  /* IE 9 */
+            transform: translateX(-210%);  /* Firefox 16+, IE 10+, Opera */
+    -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+            transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  }
+
+ .loaded #loader-wrapper .loader-section.section-leftTopRecFive{
+    -webkit-transform: translateX(-100%);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: translateX(-100%);  /* IE 9 */
+            transform: translateX(-100%);  /* Firefox 16+, IE 10+, Opera */
+    -webkit-transition: all 0.5s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+            transition: all 0.5s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  }
+
+  .loaded #loader-wrapper .loader-section.section-leftTopRecSix{
+    -webkit-transform: translateX(-210%);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: translateX(-210%);  /* IE 9 */
+            transform: translateX(-210%);  /* Firefox 16+, IE 10+, Opera */
+    -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+            transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  }
+
+  .loaded #loader-wrapper .loader-section.section-leftTopRecSeven{
+    -webkit-transform: translateX(-100%);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: translateX(-100%);  /* IE 9 */
+            transform: translateX(-100%);  /* Firefox 16+, IE 10+, Opera */
+    -webkit-transition: all 0.5s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+            transition: all 0.5s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  }
+
+  .loaded #loader-wrapper .loader-section.section-leftTopRecEight{
+    -webkit-transform: translateX(-210%);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: translateX(-210%);  /* IE 9 */
+            transform: translateX(-210%);  /* Firefox 16+, IE 10+, Opera */
+    -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+            transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  }
+
+  .loaded #loader-wrapper .loader-section.section-leftTopRecNine{
+    -webkit-transform: translateX(-100%);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: translateX(-100%);  /* IE 9 */
+            transform: translateX(-100%);  /* Firefox 16+, IE 10+, Opera */
+    -webkit-transition: all 0.5s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+            transition: all 0.5s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  }
+
+  .loaded #loader-wrapper .loader-section.section-leftTopRecTen{
+    -webkit-transform: translateX(-210%);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: translateX(-210%);  /* IE 9 */
+            transform: translateX(-210%);  /* Firefox 16+, IE 10+, Opera */
+    -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+            transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  }
+
+  .loaded #loader-wrapper .loader-section.section-leftTopRecEleven{
+    -webkit-transform: translateX(-100%);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: translateX(-100%);  /* IE 9 */
+            transform: translateX(-100%);  /* Firefox 16+, IE 10+, Opera */
+    -webkit-transition: all 0.5s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+            transition: all 0.5s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  }
+
+  .loaded #loader-wrapper .loader-section.section-leftTopRecTwelve{
+    -webkit-transform: translateX(-210%);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: translateX(-210%);  /* IE 9 */
+            transform: translateX(-210%);  /* Firefox 16+, IE 10+, Opera */
+    -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+            transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  }
+  .loaded #loader-wrapper .loader-section.section-leftTopRecThirteen{
+    -webkit-transform: translateX(-100%);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: translateX(-100%);  /* IE 9 */
+            transform: translateX(-100%);  /* Firefox 16+, IE 10+, Opera */
+    -webkit-transition: all 0.5s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+            transition: all 0.5s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  }
+
+  .loaded #loader-wrapper .loader-section.section-leftTopRecFourteen{
+    -webkit-transform: translateX(-210%);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: translateX(-210%);  /* IE 9 */
+            transform: translateX(-210%);  /* Firefox 16+, IE 10+, Opera */
+    -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+            transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  }
+  .loaded #loader-wrapper .loader-section.section-leftTopRecFifteen{
+    -webkit-transform: translateX(-100%);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: translateX(-100%);  /* IE 9 */
+            transform: translateX(-100%);  /* Firefox 16+, IE 10+, Opera */
+    -webkit-transition: all 0.5s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+            transition: all 0.5s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  }
+
+  .loaded #loader-wrapper .loader-section.section-leftTopRecSixteen{
+    -webkit-transform: translateX(-210%);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: translateX(-210%);  /* IE 9 */
+            transform: translateX(-210%);  /* Firefox 16+, IE 10+, Opera */
+    -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+            transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  }
+  .loaded #loader-wrapper .loader-section.section-leftTopRecSeventeen{
+    -webkit-transform: translateX(-100%);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: translateX(-100%);  /* IE 9 */
+            transform: translateX(-100%);  /* Firefox 16+, IE 10+, Opera */
+    -webkit-transition: all 0.5s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+            transition: all 0.5s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  }
+
+  .loaded #loader-wrapper .loader-section.section-leftTopRecEightteen{
+    -webkit-transform: translateX(-210%);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: translateX(-210%);  /* IE 9 */
+            transform: translateX(-210%);  /* Firefox 16+, IE 10+, Opera */
+    -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+            transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  }
+  .loaded #loader-wrapper .loader-section.section-leftTopRecNineteen{
+    -webkit-transform: translateX(-100%);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: translateX(-100%);  /* IE 9 */
+            transform: translateX(-100%);  /* Firefox 16+, IE 10+, Opera */
+    -webkit-transition: all 0.5s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+            transition: all 0.5s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  }
+
+  .loaded #loader-wrapper .loader-section.section-leftTopRecTwenty{
+    -webkit-transform: translateX(-210%);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: translateX(-210%);  /* IE 9 */
+            transform: translateX(-210%);  /* Firefox 16+, IE 10+, Opera */
+    -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+            transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  }
+  /*-----------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
   
   .loaded #loader-wrapper .loader-section.section-right{
     -webkit-transform: translateX(100%);  /* Chrome, Opera 15+, Safari 3.1+ */
@@ -186,6 +752,176 @@ header{
     -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
             transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
   }
+
+  .loaded #loader-wrapper .loader-section.section-rightTop{
+    -webkit-transform: translateX(100%);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: translateX(100%);  /* IE 9 */
+            transform: translateX(100%);  /* Firefox 16+, IE 10+, Opera */
+    -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+            transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  }
+
+
+
+    /*wall windows Right ----------------------------------------------------------------------------------------------------------------------*/
+  .loaded #loader-wrapper .loader-section.section-rightTopRecOne{
+    -webkit-transform: translateX(100%);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: translateX(100%);  /* IE 9 */
+            transform: translateX(100%);  /* Firefox 16+, IE 10+, Opera */
+    -webkit-transition: all 0.5s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+            transition: all 0.5s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  }
+
+  .loaded #loader-wrapper .loader-section.section-rightTopRecTwo{
+    -webkit-transform: translateX(210%);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: translateX(210%);  /* IE 9 */
+            transform: translateX(210%);  /* Firefox 16+, IE 10+, Opera */
+    -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+            transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  }
+   .loaded #loader-wrapper .loader-section.section-rightTopRecThree{
+    -webkit-transform: translateX(100%);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: translateX(100%);  /* IE 9 */
+            transform: translateX(100%);  /* Firefox 16+, IE 10+, Opera */
+    -webkit-transition: all 0.5s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+            transition: all 0.5s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  }
+
+  .loaded #loader-wrapper .loader-section.section-rightTopRecFour{
+    -webkit-transform: translateX(210%);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: translateX(210%);  /* IE 9 */
+            transform: translateX(210%);  /* Firefox 16+, IE 10+, Opera */
+    -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+            transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  }
+   .loaded #loader-wrapper .loader-section.section-rightTopRecFive{
+    -webkit-transform: translateX(100%);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: translateX(100%);  /* IE 9 */
+            transform: translateX(100%);  /* Firefox 16+, IE 10+, Opera */
+    -webkit-transition: all 0.5s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+            transition: all 0.5s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  }
+
+  .loaded #loader-wrapper .loader-section.section-rightTopRecSix{
+    -webkit-transform: translateX(210%);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: translateX(210%);  /* IE 9 */
+            transform: translateX(210%);  /* Firefox 16+, IE 10+, Opera */
+    -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+            transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  }
+  .loaded #loader-wrapper .loader-section.section-rightTopRecSeven{
+    -webkit-transform: translateX(100%);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: translateX(100%);  /* IE 9 */
+            transform: translateX(100%);  /* Firefox 16+, IE 10+, Opera */
+    -webkit-transition: all 0.5s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+            transition: all 0.5s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  }
+
+  .loaded #loader-wrapper .loader-section.section-rightTopRecEight{
+    -webkit-transform: translateX(210%);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: translateX(210%);  /* IE 9 */
+            transform: translateX(210%);  /* Firefox 16+, IE 10+, Opera */
+    -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+            transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  }
+  .loaded #loader-wrapper .loader-section.section-rightTopRecNine{
+    -webkit-transform: translateX(100%);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: translateX(100%);  /* IE 9 */
+            transform: translateX(100%);  /* Firefox 16+, IE 10+, Opera */
+    -webkit-transition: all 0.5s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+            transition: all 0.5s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  }
+
+  .loaded #loader-wrapper .loader-section.section-rightTopRecTen{
+    -webkit-transform: translateX(210%);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: translateX(210%);  /* IE 9 */
+            transform: translateX(210%);  /* Firefox 16+, IE 10+, Opera */
+    -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+            transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  }
+
+  .loaded #loader-wrapper .loader-section.section-rightTopRecEleven{
+    -webkit-transform: translateX(100%);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: translateX(100%);  /* IE 9 */
+            transform: translateX(100%);  /* Firefox 16+, IE 10+, Opera */
+    -webkit-transition: all 0.5s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+            transition: all 0.5s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  }
+
+  .loaded #loader-wrapper .loader-section.section-rightTopRecTwelve{
+    -webkit-transform: translateX(210%);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: translateX(210%);  /* IE 9 */
+            transform: translateX(210%);  /* Firefox 16+, IE 10+, Opera */
+    -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+            transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  }
+
+   .loaded #loader-wrapper .loader-section.section-rightTopRecThirteen{
+    -webkit-transform: translateX(100%);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: translateX(100%);  /* IE 9 */
+            transform: translateX(100%);  /* Firefox 16+, IE 10+, Opera */
+    -webkit-transition: all 0.5s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+            transition: all 0.5s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  }
+
+  .loaded #loader-wrapper .loader-section.section-rightTopRecFourteen{
+    -webkit-transform: translateX(210%);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: translateX(210%);  /* IE 9 */
+            transform: translateX(210%);  /* Firefox 16+, IE 10+, Opera */
+    -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+            transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  }
+
+   .loaded #loader-wrapper .loader-section.section-rightTopRecFifteen{
+    -webkit-transform: translateX(100%);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: translateX(100%);  /* IE 9 */
+            transform: translateX(100%);  /* Firefox 16+, IE 10+, Opera */
+    -webkit-transition: all 0.5s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+            transition: all 0.5s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  }
+
+  .loaded #loader-wrapper .loader-section.section-rightTopRecSixteen{
+    -webkit-transform: translateX(210%);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: translateX(210%);  /* IE 9 */
+            transform: translateX(210%);  /* Firefox 16+, IE 10+, Opera */
+    -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+            transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  }
+    .loaded #loader-wrapper .loader-section.section-rightTopRecSeventeen{
+    -webkit-transform: translateX(100%);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: translateX(100%);  /* IE 9 */
+            transform: translateX(100%);  /* Firefox 16+, IE 10+, Opera */
+    -webkit-transition: all 0.5s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+            transition: all 0.5s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  }
+
+  .loaded #loader-wrapper .loader-section.section-rightTopRecEightteen{
+    -webkit-transform: translateX(210%);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: translateX(210%);  /* IE 9 */
+            transform: translateX(210%);  /* Firefox 16+, IE 10+, Opera */
+    -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+            transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  }
+  .loaded #loader-wrapper .loader-section.section-rightTopRecNineteen{
+    -webkit-transform: translateX(100%);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: translateX(100%);  /* IE 9 */
+            transform: translateX(100%);  /* Firefox 16+, IE 10+, Opera */
+    -webkit-transition: all 0.5s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+            transition: all 0.5s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  }
+
+  .loaded #loader-wrapper .loader-section.section-rightTopRecTwenty{
+    -webkit-transform: translateX(210%);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: translateX(210%);  /* IE 9 */
+            transform: translateX(210%);  /* Firefox 16+, IE 10+, Opera */
+    -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);  /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+            transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+  }
+
+  /*-----------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
 
   .loaded #containerLoader{
     opacity: 0;
@@ -214,7 +950,7 @@ header{
   height: 200px;
   margin: -100px 0 0 -100px;
 
-  z-index: 1003;
+  z-index: 1011;
 
 }
 
@@ -236,7 +972,7 @@ header{
   height: 200px;
   margin: -100px 0 0 -100px;
 
-  z-index: 1002;
+  z-index: 1011;
 }
 
 .loaded #loader-wrapper .loaderOerlayLeft{
