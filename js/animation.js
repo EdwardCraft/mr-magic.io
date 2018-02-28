@@ -1,3 +1,10 @@
+
+/*
+   Remember to upload the new version of the web game, and hide the buttons execept
+   the game button.
+
+*/
+
 var canvas = null;
 var canvasT = null;
 var ctx = null;
